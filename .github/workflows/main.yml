@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  ocicl_job:
+    runs-on: ubuntu-latest
+    name: A job to do something
+    steps:
+      - name: Do something
+        id: do-something
+        uses: actions/ocicle-action@v0
+        with:
+          project-name: 'cl-ppcre'
