@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Do something
         id: do-something
-        uses: actions/ocicle-action@v0
+        uses: actions/ocicl-action@v0
         with:
           project-name: 'cl-ppcre'
