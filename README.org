@@ -1,3 +1,8 @@
 * cl-ppcre
 
-This is a test.
+CL-PPCRE is a portable regular expression library for Common Lisp.
+
+|---------+------------------------------------------|
+| source  | github-HEAD:git@github.com/lisp/cl-ppcre |
+| systems | cl-ppcre, cl-ppcre-unicode               |
+|---------+------------------------------------------|
