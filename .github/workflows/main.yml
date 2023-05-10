@@ -10,5 +10,5 @@ jobs:
       - id: build-and-publish
         uses: ocicl/ocicl-action@main
         with:
-          gpg_signing_key: ${{ GPG_SIGNING_KEY }}
-          gpg_public_key: ${{ GPG_PUBLIC_KEY }}
+          gpg_signing_key: ${{ secrets.GPG_SIGNING_KEY }}
+          gpg_public_key: ${{ secrets.GPG_PUBLIC_KEY }}
