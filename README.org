@@ -4,6 +4,6 @@ CL-PPCRE is a portable regular expression library for Common Lisp
 
 |---------+-------------------------------------------|
 | source  | git:https://github.com/edicl/cl-ppcre.git |
-| commit  | 80fb19d                                   |
+| commit  | a2ea581                                   |
 | systems | cl-ppcre cl-ppcre-unicode                 |
 |---------+-------------------------------------------|
